@@ -10,10 +10,10 @@ exports.port = process.env.PORT || 8080;
 exports.google_analytics_id = process.env.GA_ID || null;
 
 // this is used connect to keep session cookies secure. You should change this.
-exports.secret = process.env.SECRET || "correct horse battery staple";
+exports.secret = process.env.SECRET || "superdupersecretword";
 
 // for redis if you're on heroku or using redis-to-go
-exports.redistogo_url = process.env.REDISTOGO_URL || "";
+exports.redistogo_url = process.env.REDISTOGO_URL || "redis://redistogo:3a81328dd3933b83358c0bc945e13d06@hammerjaw.redistogo.com:11307/";
 
 // for redis if you're running your own copy
 exports.redis_host = "localhost";
